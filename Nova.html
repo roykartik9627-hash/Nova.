@@ -535,7 +535,7 @@ textarea.field{min-height:68px;resize:vertical}
     3️⃣ RELOAD VOICES → Google UK English Male → TEST ✅
   </div>
   <div class="card">
-    <div class="sulb">👤 YOUR NAME</div>
+    <div class="sulb">👤 Boss</div>
     <input type="text" id="oinp" class="field" placeholder="Enter your name...">
     <button class="btn bp" onclick="saveName()">✅ SET MY NAME</button>
   </div>
@@ -1840,7 +1840,7 @@ async function send(){
   input.value = "";
 }
 
-</script                     // 📁 FILE CREATE + DOWNLOAD SYSTEM
+</script// 📁 FILE CREATE + DOWNLOAD SYSTEM
 function downloadFile(filename, content) {
   const blob = new Blob([content], { type: "text/plain" });
   const link = document.createElement("a");
@@ -1851,7 +1851,7 @@ function downloadFile(filename, content) {
 
 // 🤖 AI + FILE GENERATOR
 async function generateCodeFile(prompt) {
-  const apiKey = "YOUR_OPENAI_API_KEY";
+  const apiKey = "dfefc1ac7352992a1c2fb5a9a1ba4802ee12bd22d8d28f1f4cd27a9b380a3fd2";
 
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
